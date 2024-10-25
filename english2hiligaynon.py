@@ -8,29 +8,56 @@ Methods:
 # or see: https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/ca6c4041-0aa8-41c0-9fe3-ea61ce2b1631/content
 
 # Create the dictionary
-hiligaynon = {
+hiligaynon_dict = {
     # Sections: Noun, Pronoun, Verb, Adjective, Adverb, Preposition, Conjunction, and Interjection
-    # Part 1: Pronouns
-    "I": "Ako",
-    "I am": "Ako",
-    "you": "kamo",
+    
+    # Pronouns - First Person Singular
+    "i": "ako", # Nominative
+    "of me": "nakon", # Genitive
+    "to me": "sa akon", # Dative
+    "me": "ako", # Accusative
+    "from me": "gikan sa akon", # Ablative
+    "my": "ko", # Posessive
+    "of mine": "nakon",
+    
+    # Pronouns - First Person Plural
+    "we": "kita",
+    "of us": "kita",
+    "to us": "sa aton",
+    "us": "kita",
+    "from us": "gikan sa aton",
+    "our": "ang aton",
+    "of our": "sang aton",
+
+    # Pronouns - Second Person Singular
+    "you": "ikaw", # Nominative
+    "of you": "nimo", # Genitive
+    "to you": "sa imo", # Dative
+    "_VERB you" : "ka", # Accusative
+    "from you": "gikan sa imo", # Ablative
+    "yours": "nimo", # Posessive
+
+    # Pronouns - Second Person Plural
+    "you all": "kamo", # Nominative
+    "of you all": "ninyo", # Genitive
+    "to you all": "sa inyo", # Dative
+    "you people": "kamo", # Accusative
+    "from you all": "gikan sa inyo", # Ablative
+    "all yours": "inyo", # Posessive
+    
+    # Pronouns - Third Person Singular
     "he": "siya",
     "she": "siya",
-    "we": "kami",
     "they": "sila",
-    "me": "ako",
     "mine": "nakon",
-    "him": "sa kanya",
+    "him": "iya",
     "her": "kanya",
-    "us": "kami",
     "them": "sa kanila",
-    "my": "ko",
     "your": "iyong",
-    "of his": "ng kanyang",
-    "our": "ang aming",
+    "of him": "niya",
+    "of his": "sang iya",
     "their": "ang kanilang",
     
-    "yours": "inyo",
     "his": "niya",
     "hers": "niya",
     "ours": "naton",
@@ -59,15 +86,30 @@ def hiligaynon_of(english_text):
     
     Return the value of the key in the dictionary if it exists, otherwise return the key
     """
+    # Initialize the Hiligaynon text container
     hiligaynon_text = ""
-    for each_word in english_text:
-        if each_word in hiligaynon:
-            hiligaynon_text += hiligaynon_of(hiligaynon[each_word])
+    # Remove non-alpha characters
+    english_text = ''.join([i for i in english_text if i.isalpha() or i.isspace()])
+    print(english_text)
+    english_text = english_text.lower()
+    if english_text in hiligaynon_dict:
+        hiligaynon_text = hiligaynon_dict[english_text]
+    else:
+        if len(english_text.split()) > 1:
+            # Assign the last word to a variable
+            last_word = english_text.rsplit(' ', 1)[1]
+            # Translate the last word using hiligaynon_dict
+            last_word = hiligaynon_dict.get(last_word, last_word)
+            # Trim the english_text of the last word
+            english_text = english_text.rsplit(' ', 1)[0]
+            # Combine the translated last word with the rest of the text
+            hiligaynon_text = f"{hiligaynon_of(english_text)} {last_word}"
         else:
-            hiligaynon_text += each_word
+            # Just return the English text for now
+            hiligaynon_text = english_text
     
-    return hiligaynon_text.capitalize()
+    return f"{hiligaynon_text[0].upper()}{hiligaynon_text[1:]}"
 
 if __name__ == "__main__":
     english_text = input("Enter an English word: ")
-    print("In Hiligaynon is: ", hiligaynon_of(english_text))
+    print(f"In Hiligaynon is: {hiligaynon_of(english_text)}")
