@@ -17,6 +17,7 @@ hiligaynon_dict = {
     "to me": "sa akon", # Dative
     "me": "ako", # Accusative
     "from me": "gikan sa akon", # Ablative
+    "with me": "upod sa akon", # Ablative
     "my": "ko", # Posessive
     "of mine": "nakon",
     
@@ -31,6 +32,7 @@ hiligaynon_dict = {
 
     # Pronouns - Second Person Singular
     "you": "ikaw", # Nominative
+    "your": "iyong", # Genitive
     "of you": "nimo", # Genitive
     "to you": "sa imo", # Dative
     "_VERB you" : "ka", # Accusative
@@ -46,20 +48,25 @@ hiligaynon_dict = {
     "all yours": "inyo", # Posessive
     
     # Pronouns - Third Person Singular
+    # Masculine
     "he": "siya",
-    "she": "siya",
-    "they": "sila",
-    "mine": "nakon",
-    "him": "iya",
-    "her": "kanya",
-    "them": "sa kanila",
-    "your": "iyong",
+    "his": "niya",
     "of him": "niya",
+    "to him": "sa iya",
+    "him": "siya",
+    "from him": "gikan sa iya",
+    # Feminine
+    "she": "siya",
+    "hers": "niya",
+    "mine": "nakon",
+    "her": "kanya",
+    
+    # Pronouns - Third Person Plural
+    "them": "sa kanila",
+    "they": "sila",
     "of his": "sang iya",
     "their": "ang kanilang",
     
-    "his": "niya",
-    "hers": "niya",
     "ours": "naton",
     "theirs": "nila",
     
