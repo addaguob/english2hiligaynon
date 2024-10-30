@@ -20,6 +20,7 @@ hiligaynon_dict = {
     "with me": "upod sa akon", # Ablative
     "my": "ko", # Posessive
     "of mine": "nakon",
+    "am": "amo",
     
     # Pronouns - First Person Plural
     "we": "kita",
@@ -81,7 +82,58 @@ hiligaynon_dict = {
     "of _NAMES": "kanday",
     
     # Nouns
-    # "mine": "minahan",
+    
+    # Colors
+    "color": "kolor",
+    "black": "itum",
+    "blue": "blue",
+    "brown": "brown",
+    "grey": "abu",
+    "green": "green",
+    "orange": "orange",
+    "pink": "pink",
+    "purple": "purple",
+    "red": "pula",
+    "white": "puti",
+    "yellow": "yellow",
+    
+    # Sizes
+    "size": "size",
+    "sizes": "sizes",
+    "small": "kabi",
+    "large": "lagi",
+    "big": "big",
+    "tiny": "kali",
+    "tiny little": "kali",
+    "small little": "kabi",
+    "large little": "lagi",
+    
+    # Tastes
+    
+    # Qualities
+    
+    # Food
+    
+    # Vegetables
+    
+    # Animals
+    
+    # Things
+    
+    # Weathers
+    
+    # Seasons
+    
+    # People
+    
+    
+    # Indications
+    "this": "ini",
+    "that": "ina",
+    "these": "ini sila",
+    "those": "ina sila",
+    "these things": "ini nga mga bagay",
+    "those things": "ina nga mga bagay",
 }
 
 _constants = {
@@ -99,6 +151,18 @@ def hiligaynon_of(english_text):
     english_text = ''.join([i for i in english_text if i.isalpha() or i.isspace()])
     print(english_text)
     english_text = english_text.lower()
+    # TODO: change the algorithm below by
+    # splitting the text into words first
+    # initialize the found_hiligaynon_text to ""
+    # then start looping through the words,
+    # add the word to found_hiligaynon_text
+    # if word is in the dictionary
+    # assign it to found_hiligaynon_text
+    # and then continue to next word
+    # and check if the found_hiligaynon_text is in the dictionary
+    # and if it is, assign it to the same found_hiligaynon_text
+    # else return the hiligaynon_dict[found_hiligaynon_text]
+    
     if english_text in hiligaynon_dict:
         hiligaynon_text = hiligaynon_dict[english_text]
     else:
