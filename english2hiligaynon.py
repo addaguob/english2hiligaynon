@@ -109,23 +109,35 @@ hiligaynon_dict = {
     "large little": "lagi",
     
     # Tastes
+    "taste": "taste",
+    "sour": "sour",
+    "sweet": "sweet",
+    "bitter": "bitter",
+    "salty": "salty",
     
     # Qualities
+    "quality": "kalidad",
     
     # Food
+    "food": "pagkaon",
     
     # Vegetables
+    "vegetable": "utan",
     
     # Animals
+    "animal": "sapat",
     
     # Things
+    "thing": "bagay",
     
     # Weathers
+    "weather": "klima",
     
     # Seasons
+    "season": "season",
     
     # People
-    
+    "people": "katawhan",
     
     # Indications
     "this": "ini",
