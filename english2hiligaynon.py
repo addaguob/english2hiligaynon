@@ -81,6 +81,12 @@ hiligaynon_dict = {
     "_NAMES": "nanday",
     "of _NAMES": "kanday",
     
+    # Verbs
+    "are not": "indi",
+    "am not": "indi ko",
+    "is not": "indi",
+    "not": "indi",
+    
     # Nouns
     
     # Colors
@@ -117,6 +123,10 @@ hiligaynon_dict = {
     
     # Qualities
     "quality": "kalidad",
+    "handsome": "gwapo",
+    "pretty": "gwapa",
+    "fat": "tambuk",
+    "thin": "niwang",
     
     # Food
     "food": "pagkaon",
@@ -138,6 +148,7 @@ hiligaynon_dict = {
     
     # People
     "people": "katawhan",
+    "person": "persona",
     
     # Indications
     "this": "ini",
