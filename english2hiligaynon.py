@@ -98,12 +98,12 @@ hiligaynon_dict = {
     "yellow": "yellow",
     
     # Sizes
-    "size": "size",
+    "size": "kadakuon",
     "sizes": "sizes",
-    "small": "kabi",
-    "large": "lagi",
-    "big": "big",
-    "tiny": "kali",
+    "small": "gamay",
+    "large": "daku",
+    "big": "daku",
+    "tiny": "gaming",
     "tiny little": "kali",
     "small little": "kabi",
     "large little": "lagi",
