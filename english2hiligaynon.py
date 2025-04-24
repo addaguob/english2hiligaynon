@@ -133,6 +133,9 @@ hiligaynon_dict = {
     
     # Vegetables
     "vegetable": "utan",
+
+    # Fruits
+    "fruit": "prutas",
     
     # Animals
     "animal": "sapat",
