@@ -130,6 +130,10 @@ hiligaynon_dict = {
     
     # Food
     "food": "pagkaon",
+    "viand": "sud-an",
+    "rice": "bugas",
+    "dried fish": "uga",
+    "porridge": "lugaw",
     
     # Vegetables
     "vegetable": "utan",
