@@ -88,6 +88,19 @@ hiligaynon_dict = {
     "not": "indi",
     
     # Nouns
+
+    # Food
+    "food": "pagkaon",
+    "viand": "sud-an",
+    "rice": "bugas",
+    "dried fish": "uga",
+    "porridge": "lugaw",
+    
+    # Vegetables
+    "vegetable": "utan",
+
+    # Fruits
+    "fruit": "prutas",
     
     # Colors
     "color": "kolor",
@@ -127,19 +140,6 @@ hiligaynon_dict = {
     "pretty": "gwapa",
     "fat": "tambuk",
     "thin": "niwang",
-    
-    # Food
-    "food": "pagkaon",
-    "viand": "sud-an",
-    "rice": "bugas",
-    "dried fish": "uga",
-    "porridge": "lugaw",
-    
-    # Vegetables
-    "vegetable": "utan",
-
-    # Fruits
-    "fruit": "prutas",
     
     # Animals
     "animal": "sapat",
