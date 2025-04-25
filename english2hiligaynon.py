@@ -98,6 +98,10 @@ hiligaynon_dict = {
     
     # Vegetables
     "vegetable": "utan",
+    "squash": "kalabasa",
+    "eggplant": "talong",
+    "taro": "gabi",
+    "tomato": "kamatis",
 
     # Fruits
     "fruit": "prutas",
