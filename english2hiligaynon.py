@@ -160,6 +160,11 @@ hiligaynon_dict = {
     # People
     "people": "katawhan",
     "person": "persona",
+    "kid": "bata",
+    "kids": "mga bata",
+    "child": "bata",
+    "children": "mga bata",
+
     
     # Indications
     "this": "ini",
