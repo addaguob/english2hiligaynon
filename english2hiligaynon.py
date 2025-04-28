@@ -147,6 +147,16 @@ hiligaynon_dict = {
     
     # Animals
     "animal": "sapat",
+    "dog": "idu",
+    "cat": "kuring",
+    "mouse": "ilaga",
+    "rabbit": "rabbit",
+    "bird": "pispis",
+    "fish": "isda",
+    "snake": "man-ug",
+    "lizard": "tiki",
+    "frog": "paka",
+    "turtle": "ba-u",
     
     # Things
     "thing": "bagay",
