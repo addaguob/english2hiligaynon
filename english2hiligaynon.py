@@ -212,6 +212,16 @@ hiligaynon_dict = {
     "those": "ina sila",
     "these things": "ini nga mga bagay",
     "those things": "ina nga mga bagay",
+
+    # Common Greetings
+    "hello": "kumusta",
+    "good morning": "maayong aga",
+    "good afternoon": "maayong udto",
+    "good evening": "maayong gab-i",
+    "goodbye": "ba-bye",
+    "thank you": "salamat",
+    "please": "palihog",
+
 }
 
 _constants = {
