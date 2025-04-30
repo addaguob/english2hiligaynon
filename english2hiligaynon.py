@@ -86,8 +86,27 @@ hiligaynon_dict = {
     "am not": "indi ko",
     "is not": "indi",
     "not": "indi",
+    "be": "mangin",
+    "be not": "indi mangin",
     
+    # Basic Actions
+    "eat": "kaon",
+    "drink": "inum",
+    "sleep": "tulog",
+    "walk": "lakat",
+    "run": "dalagan",
+    "sit": "lingkod",
+    "stand": "tindog",
+
     # Nouns
+
+    # Family Members
+    "father": "amay",
+    "mother": "nanay",
+    "brother": "utod nga lalaki",
+    "sister": "utod nga babayi",
+    "grandfather": "lolo",
+    "grandmother": "lola",
 
     # Food
     "food": "pagkaon",
