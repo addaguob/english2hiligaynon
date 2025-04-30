@@ -160,12 +160,22 @@ hiligaynon_dict = {
     
     # Things
     "thing": "bagay",
+    "things": "mga bagay",
+
     
     # Weathers
     "weather": "klima",
+    "rainy": "maulanon",
+    "sunny": "maadlawon",
+    "cloudy": "mapanganod",
+    "stormy": "magal-um",
     
     # Seasons
     "season": "season",
+    "spring": "spring",
+    "summer": "tag-init",
+    "autumn": "taglagas",
+    "winter": "tag-ululan",
     
     # People
     "people": "katawhan",
