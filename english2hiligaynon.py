@@ -180,6 +180,14 @@ hiligaynon_dict = {
     # Things
     "thing": "bagay",
     "things": "mga bagay",
+    # Common Objects
+    "house": "balay",
+    "door": "pwertahan",
+    "window": "bintana",
+    "table": "lamesa",
+    "chair": "silya",
+    "bed": "katre",
+    "book": "libro",
 
     
     # Weathers
