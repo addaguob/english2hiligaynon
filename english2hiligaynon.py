@@ -99,7 +99,6 @@ hiligaynon_dict = {
     "stand": "tindog",
 
     # Nouns
-
     # Family Members
     "father": "amay",
     "mother": "nanay",
@@ -107,7 +106,37 @@ hiligaynon_dict = {
     "sister": "utod nga babayi",
     "grandfather": "lolo",
     "grandmother": "lola",
+    "aunt": "tiya",
+    "uncle": "tiyo",
+    "cousin": "paka-isa",
+    "son": "bata nga lalaki",
+    "daughter": "bata nga babayi",
+    "child": "bata",
+    "children": "mga bata",
+    "kids": "mga bata",
 
+    # People
+    "boy": "bata nga lalaki",
+    "chef": "chef",
+    "doctor": "doktor",
+    "firefighter": "firefighter",
+    "friend": "kaibigan",
+    "girl": "bata nga babayi",
+    "king": "hari",
+    "man": "lalaki",
+    "nurse": "nurse",
+    "people": "katawhan",
+    "person": "persona",
+    "police": "pulis",
+    "president": "presidente",
+    "prince": "prinsipe",
+    "princess": "prinsesa",
+    "queen": "reyna",
+    "student": "estudyante",
+    "teacher": "guro",
+    "woman": "babaye",
+    "worker": "manug-ubra",
+    
     # Food
     "food": "pagkaon",
     "viand": "sud-an",
@@ -203,15 +232,6 @@ hiligaynon_dict = {
     "summer": "tag-init",
     "autumn": "taglagas",
     "winter": "tag-ululan",
-    
-    # People
-    "people": "katawhan",
-    "person": "persona",
-    "kid": "bata",
-    "kids": "mga bata",
-    "child": "bata",
-    "children": "mga bata",
-
     
     # Indications
     "this": "ini",
