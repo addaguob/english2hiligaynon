@@ -63,13 +63,24 @@ hiligaynon_dict = {
     "her": "kanya",
     
     # Pronouns - Third Person Plural
-    "them": "sa kanila",
-    "they": "sila",
-    "of his": "sang iya",
-    "their": "ang kanilang",
+    "they": "sila", # Nominative
+    "them": "sila", # Accusative
+    "their": "ang ila", # Possessive
+    "theirs": "ila", # Possessive
+    "of them": "nila", # Genitive
+    "to them": "sa ila", # Dative
+    "from them": "gikan sa ila", # Ablative
+    "with them": "upod sa ila", # Ablative
+    "of their": "sang ila", # Genitive
+    "to their": "sa ila", # Dative
+    "from their": "gikan sa ila nga", # Ablative
+    "with their": "upod sa ila nga", # Ablative
     
-    "ours": "naton",
-    "theirs": "nila",
+    "ours": "naton", # Possessive
+    "of ours": "sang aton", # Genitive
+    "to ours": "sa aton", # Dative
+    "from ours": "gikan sa aton", # Ablative
+    "with ours": "upod sa aton", # Ablative
     
     # Particles
     "the": "ang",
